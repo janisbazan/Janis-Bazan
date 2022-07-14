@@ -1,0 +1,21 @@
+listin.txt
+Janis,8976540
+carlos,7689096
+
+
+Hacer una clase llamada Contactos
+
+Menu
+- Consultar Telefono
+- Añador Telefono
+- Eliminar Telefono
+
+
+1-Introduzco nombre cliente | monstra_numero_cliente
+ - si no exite, mostrarle por pantalla al usuario un mensaje de que no exite el cliente
+2-Introduzca el nombre del cliente para agregarlo | agregar_cliente
+2-Introduzca el telefono del cliente para agregarlo | agregar_cliente
+ - si el listin no existe crear listin.txt y agreagar el nombre y telefono del cliente
+3-Introduzca el nombre del cliente para eliminarlo | eliminar_cliente
+ - si no existe el listin no hacer nada,
+ - si no existe el nombre del cliente decirle al usuario que no existe el cliente
