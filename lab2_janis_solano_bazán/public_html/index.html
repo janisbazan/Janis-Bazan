@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario de Arte</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Ejercico 1 -->
+        <table border="0">
+            <tr>
+                Titulo
+                <input type="text" placeholder=" " id="la_noche_estrellada"/>
+                <td>
+                    Autor
+                    <input type="text" placeholder=" " id="nombre_del_autor"/>
+                </td>
+                <td>
+                    <p> Tipo</p>
+                    <label><input type="checkbox" id="cbox1" value="1_checkbox"> Escultura</label><br>
+                    <label><input type="checkbox" id="cbox2" value="2_checkbox"> Arquitectura</label><br>
+                    <label><input type="checkbox" id="cbox3" value="3_checkbox"> Pintura</label>
+                </td>
+                <td>
+                    <p>Disponibilidad</p>
+                    <input type="radio" id="radio_museo" name="radio_disp"/> Museo/Acceso publico<br>
+                    <input type="radio" id="radio_coleccion" name="radio_disp"/> Coleccion privada<br>
+                </td>
+                <td>
+                    <p>Estilo</p>
+                    <select id="txt_lista">
+                    <option value="1">Clasico</option>
+                    <option value="2">Abstracto </option>
+                    <option value="3">Surrealismo</option>
+                    <option value="4">Otros</option>
+                    </select>
+                </td>
+        </table>
+        <!-- Fin de la tabla -->
+        <form>
+            Haganos saber sus sugerencias
+            <textarea cols="40" rows="4" id="txt_comentario" placeholder="Me gustaria indicar que...."></textarea>
+            <!--<textarea cols="40" rows="4"> "Me gustaria indicar que...."</textarea>-->
+            <p align="center"> 
+                <input type="submit" value="Buscar"/>
+        </form>
+        <!-- Fin de ejercicio 1 -->
+        <!-- Ejercicio 2 -->
+         <img width="200" height="200"
+             alt="Logo de uia, Universidad" src="data:image/png;base64,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"/>
+         <br>
+         <a href="OtrasPaginas/uia_times.html">Ir a UIA Times</a>
+         <ul>
+             <li><a href="OtrasPaginas/articulo1.html">articulo1</a></li>
+             <li><a href="OtrasPaginas/articulo2.html">articulo2</a></li>
+             <li><a href="OtrasPaginas/articulo3.html">articulo3</a></li>
+         </ul>
+    
+    
+    </body>
+</html>
