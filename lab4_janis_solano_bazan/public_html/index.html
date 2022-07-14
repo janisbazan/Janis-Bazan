@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Calculadora </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Estilos/css.css"/>
+         <script type ="text/javascript" src="JS/javascript.js"></script>
+    </head>
+    <body>
+        <table class = "tabla">
+            <tr>
+                <td colspan="5">
+                    <span id="cuadro">  </span>  
+                </td>
+            </tr>
+            <tr>
+                <td><input type ="button" value = "←" id="Button_borrado"/></td>
+                <td><input type ="button" value = "CE" id="Button_Ce"/></td>
+                <td> <input type ="button" value = "C" id="Button_C" onclick = "ponerlimpiar()"/></td>
+            <br>
+                <td> <input type ="button" value = "+" id="Button_mas" onclick = "ponersumar()"/></td>
+               
+            </tr>
+            <tr>
+                <td><input type ="button" value = "7" id="Button_siete" onclick="poner7();"/></td>
+                <td> <input type ="button" value = "8" id="Button_ocho" onclick="poner8();"/></td>
+                <td><input type ="button" value = "9" id="Button_nueve" onclick="poner9();"/></td>
+                <td> <input type ="button" value = "/" id="Button_division"onclick="ponerdivision();"/></td>
+               
+            </tr>
+            <tr>
+                <td><input type ="button" value = "4" id="Button_cuatro" onclick="poner4();"/></td>
+                <td> <input type ="button" value = "5" id="Button_cinco" onclick="poner5();"/></td>
+                <td><input type ="button" value = "6" id="Button_seis" onclick="poner6();" /></td>
+                <td> <input type ="button" value = "*" id="Button_multiplicacion" onclick="ponermultiplicar()"/></td>
+                   
+            </tr>
+            <tr>
+                <td><input type ="button" value = "1" id="Button_uno" onclick="poner1();"/></td>
+                <td> <input type ="button" value = "2" id="Button_dos" onclick="poner2();"/></td>
+                <td><input type ="button" value = "3" id="Button_tres" onclick="poner3();" /></td>
+                <td> <input type ="button" value = "-" id="Button_resta"/></td>      
+                <td rowspan="2"> <input type ="button" value = "=" id="Button_igual"/></td> 
+            </tr>
+            <tr>
+                <td colspan="2"> <input  type ="button" value = "0" id="Button_cero" onclick="poner0();"/></td> 
+                <td> <input type ="button" value = "." id="Button_punto" onclick="ponerpunto();" /></td>
+                      
+            </tr> 
+        </table> 
+    </body>
+</html>
