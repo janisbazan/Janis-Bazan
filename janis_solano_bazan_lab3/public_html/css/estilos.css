@@ -1,0 +1,126 @@
+/*
+comentario css
+*/
+h1{
+    font-family: 'Lobster', cursive;
+
+}
+
+/*cambia color cuando pasamos encima*/
+h1:hover{
+    color:   #6a1b9a  ; 
+}
+
+/*Estilo tipo de clases*/
+
+
+.movimiento{
+    animation: bounceInDown; /* tipo de animacion */
+    animation-duration: 3s; /* duracion */
+}
+
+/*Estilos para identificadores o secciones de paginas --> Ojo es con el # */
+
+/*capa*/
+
+#contenido{
+    width: 610px;
+    height: 700px;
+
+    background-color: #FAAC58;
+
+    border-radius: 15px 12px 27px 123px;
+    -moz-border-radius: 15px 12px 27px 123px;
+    -webkit-border-radius: 15px 12px 27px 123px;
+    border: 13px solid  #088A68 ;
+
+    padding-left: 20px;
+    margin: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+/*Estilos contextuales*/
+
+#caja1{
+
+    width: 110px;
+    height: 350px;
+    background-color: #610B21;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 11px solid #000000;
+
+    padding-left: 20px;
+    margin: 250px;
+
+    position: absolute;
+    top: 110px;
+
+}
+
+#caja2{
+
+    width: 100px;
+    height: 260px;
+    background-color: #B40431;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 11px solid #000000;
+
+    padding-left: 20px;
+    margin: 400px;
+
+    position: absolute;
+    top: 50px;
+
+}
+
+#caja3{
+
+    width: 100px;
+    height: 190px;
+    background-color: #3B0B39;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 11px solid #000000;
+
+    padding-left: 20px;
+    margin: 110px;
+
+    position: absolute;
+    top: 410px;
+
+}
+
+#persona img{
+
+    padding-left: 40px;
+    margin: 138px;
+
+
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    top: 3px;
+}
+
+#trofeo img{
+
+    width: 120px;
+    height: 120px;
+
+    padding-left: 205px;
+    margin: 0px;
+
+}
